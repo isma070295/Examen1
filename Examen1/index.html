@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html><meta charset="UTF-8">
+<head>
+<title>Consulta Pasajes</title>
+<link rel="stylesheet" type="text/css" href="plantilla.css">
+</head>
+</style>
+<body>
+<h1 class="head">Consulta Precio Pasaje</h1>
+<form id="form">
+	<p>Datos del Pasaje</p>
+	<p id="pb">Precio Base <input class="inp" type="number"></p>
+	<p id="cant">Cantidad <input class="inp" type="number"></p>
+	<p>Horario
+	<select id="tbH">
+	  <option value="Seleccione...">Seleccione...</option>
+	  <option value="Diurno">Diurno</option>
+	  <option value="Tarde">Tarde</option>
+	  <option value="Nocturno">Nocturno</option>
+	</select>
+	</p>
+	<br><br>
+	<p><input type="checkbox" id="cb">Asegura equipaje
+	<input class="inp" type="number" id="aRes"></p><br>
+	<br><hr>
+	<h1>Resultados</h1>
+<p class="nRes">Monto Neto <input class="inp" type="number" id="nRes"></p>
+<p class="iRes">Monto Iva <input class="inp" type="number" id="iRes"></p>
+<p class="tRes">Monto Total <input class="inp" type="number" id="tRes"></p>
+<hr>
+<p>
+<button type="button" onclick="consultar()" value="Consultar">Consultar</button>
+<button type="button" onclick="resetear()" value="Resetear">Resetear</button>
+</p>
+</body>
+</html>

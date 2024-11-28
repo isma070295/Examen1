@@ -1,0 +1,32 @@
+body {
+    background-color: lightgreen;
+}
+
+.head{
+    color: red;
+    text-align: center;
+}
+
+h1 {
+    font-family: Comic;
+    font-size: 20px;
+}
+
+p {
+    font-family: Comic;
+    font-size: 20px;
+}
+.inp{
+  position: absolute;
+  right: 0px;
+  width: 250px;
+  border: 3px solid red;
+  padding: 10px;
+}
+select{
+  position: absolute;
+  right: 0px;
+  width: 250px;
+  border: 3px solid red;
+  padding: 10px;
+}
